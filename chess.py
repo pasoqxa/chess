@@ -12,7 +12,7 @@ dirlist = []
 for line in dir: 
 	print(line)
 	count += 1
-	dirlist.append(line) #lists with names of games  
+	dirlist.append(line) #list with names of games  
 dicts = dict(list(enumerate(dirlist))) #dictionary with 
 
 a = int(input('\nEnter a number of game you would like to analyse \n\n'))
